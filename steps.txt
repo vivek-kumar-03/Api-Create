@@ -1,0 +1,40 @@
+npm install -y
+npm install express mongoose
+
+npm i nodemon
+-> change in json package 
+
+install this also
+npm install body-parser cors
+
+create a folder -> models
+
+
+main setps
+
+require -> express and mongoose
+
+cont app =  express();  to create api 
+
+
+// require the middleware 
+
+const bodyParse =  require("body-parser");
+cont cors = require("cors)
+
+// app -> express use this method 
+app.use(cors());
+app.use(bodyParse());
+
+
+// write any port number that are using 
+eg  -> cont port = 3000;
+
+
+// for password encrypty
+
+npm install bcryptjs
+
+// for send opt email to student 
+
+npm intall nodemailer
